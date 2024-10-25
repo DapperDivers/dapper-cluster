@@ -24,7 +24,7 @@ nodes:
   - hostname: "talos-control-1"
     ipAddress: "10.100.0.50"
     installDisk: "/dev/vda"
-    talosImageURL: factory.talos.dev/installer/3b8fcce903606dc88799fa424dab35f92a7acfe4d3999eb45507791b69dd8384
+    talosImageURL: factory.talos.dev/installer/ce4c980550dd2ab1b17bbf2b08801c7eb59418eafe8f279833297925d67c7515
     controlPlane: true
     networkInterfaces:
       - deviceSelector:
@@ -41,7 +41,7 @@ nodes:
   - hostname: "talos-control-2"
     ipAddress: "10.100.0.51"
     installDisk: "/dev/vda"
-    talosImageURL: factory.talos.dev/installer/3b8fcce903606dc88799fa424dab35f92a7acfe4d3999eb45507791b69dd8384
+    talosImageURL: factory.talos.dev/installer/ce4c980550dd2ab1b17bbf2b08801c7eb59418eafe8f279833297925d67c7515
     controlPlane: true
     networkInterfaces:
       - deviceSelector:
@@ -58,7 +58,7 @@ nodes:
   - hostname: "talos-control-3"
     ipAddress: "10.100.0.52"
     installDisk: "/dev/vda"
-    talosImageURL: factory.talos.dev/installer/3b8fcce903606dc88799fa424dab35f92a7acfe4d3999eb45507791b69dd8384
+    talosImageURL: factory.talos.dev/installer/ce4c980550dd2ab1b17bbf2b08801c7eb59418eafe8f279833297925d67c7515
     controlPlane: true
     networkInterfaces:
       - deviceSelector:
@@ -90,7 +90,7 @@ nodes:
   - hostname: "talos-node-large-1"
     ipAddress: "10.100.0.54"
     installDisk: "/dev/vda"
-    talosImageURL: factory.talos.dev/installer/3b8fcce903606dc88799fa424dab35f92a7acfe4d3999eb45507791b69dd8384
+    talosImageURL: factory.talos.dev/installer/ce4c980550dd2ab1b17bbf2b08801c7eb59418eafe8f279833297925d67c7515
     controlPlane: false
     networkInterfaces:
       - deviceSelector:
@@ -105,7 +105,7 @@ nodes:
   - hostname: "talos-node-large-2"
     ipAddress: "10.100.0.55"
     installDisk: "/dev/vda"
-    talosImageURL: factory.talos.dev/installer/3b8fcce903606dc88799fa424dab35f92a7acfe4d3999eb45507791b69dd8384
+    talosImageURL: factory.talos.dev/installer/ce4c980550dd2ab1b17bbf2b08801c7eb59418eafe8f279833297925d67c7515
     controlPlane: false
     networkInterfaces:
       - deviceSelector:
