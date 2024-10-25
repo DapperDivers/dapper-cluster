@@ -1,0 +1,3 @@
+---
+providerRegex: ^(talos-control-1|talos-control-2|talos-control-3|talos-node-gpu-1|talos-node-large-1|talos-node-large-2)$
+bypassDnsResolution: true
