@@ -6,7 +6,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 30m
-  url: "ssh://git@github.com/DapperDivers/dapperlabs.git"
+  url: "ssh://git@github.com:DapperDivers/dapper-cluster.git"
   secretRef:
     name: github-deploy-key
   ref:
