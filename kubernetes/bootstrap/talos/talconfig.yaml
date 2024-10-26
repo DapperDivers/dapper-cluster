@@ -29,7 +29,7 @@ nodes:
     networkInterfaces:
       - deviceSelector:
           hardwareAddr: "bc:24:11:2e:9f:34"
-        dhcp: true
+        dhcp: false
         addresses:
           - "10.100.0.50/24"
         routes:
@@ -46,7 +46,7 @@ nodes:
     networkInterfaces:
       - deviceSelector:
           hardwareAddr: "bc:24:11:b6:57:d5"
-        dhcp: true
+        dhcp: false
         addresses:
           - "10.100.0.51/24"
         routes:
@@ -63,7 +63,7 @@ nodes:
     networkInterfaces:
       - deviceSelector:
           hardwareAddr: "bc:24:11:38:d5:d7"
-        dhcp: true
+        dhcp: false
         addresses:
           - "10.100.0.52/24"
         routes:
@@ -75,12 +75,12 @@ nodes:
   - hostname: "talos-node-gpu-1"
     ipAddress: "10.100.0.53"
     installDisk: "/dev/vda"
-    talosImageURL: factory.talos.dev/installer/914b38adefad3d77212f565745ed52013bf3a424e7da2730e9e7dad8ee297342
+    talosImageURL: factory.talos.dev/installer/ce4c980550dd2ab1b17bbf2b08801c7eb59418eafe8f279833297925d67c7515
     controlPlane: false
     networkInterfaces:
       - deviceSelector:
           hardwareAddr: "bc:24:11:d3:ff:c2"
-        dhcp: true
+        dhcp: false
         addresses:
           - "10.100.0.53/24"
         routes:
@@ -95,7 +95,7 @@ nodes:
     networkInterfaces:
       - deviceSelector:
           hardwareAddr: "bc:24:11:7d:6d:e5"
-        dhcp: true
+        dhcp: false
         addresses:
           - "10.100.0.54/24"
         routes:
@@ -110,7 +110,7 @@ nodes:
     networkInterfaces:
       - deviceSelector:
           hardwareAddr: "bc:24:11:e0:17:19"
-        dhcp: true
+        dhcp: false
         addresses:
           - "10.100.0.55/24"
         routes:
