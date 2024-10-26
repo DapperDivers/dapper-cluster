@@ -29,7 +29,7 @@ nodes:
     networkInterfaces:
       - deviceSelector:
           hardwareAddr: "bc:24:11:2e:9f:34"
-        dhcp: false
+        dhcp: true
         addresses:
           - "10.100.0.50/24"
         routes:
@@ -46,7 +46,7 @@ nodes:
     networkInterfaces:
       - deviceSelector:
           hardwareAddr: "bc:24:11:b6:57:d5"
-        dhcp: false
+        dhcp: true
         addresses:
           - "10.100.0.51/24"
         routes:
@@ -63,7 +63,7 @@ nodes:
     networkInterfaces:
       - deviceSelector:
           hardwareAddr: "bc:24:11:38:d5:d7"
-        dhcp: false
+        dhcp: true
         addresses:
           - "10.100.0.52/24"
         routes:
@@ -80,7 +80,7 @@ nodes:
     networkInterfaces:
       - deviceSelector:
           hardwareAddr: "bc:24:11:d3:ff:c2"
-        dhcp: false
+        dhcp: true
         addresses:
           - "10.100.0.53/24"
         routes:
@@ -95,7 +95,7 @@ nodes:
     networkInterfaces:
       - deviceSelector:
           hardwareAddr: "bc:24:11:7d:6d:e5"
-        dhcp: false
+        dhcp: true
         addresses:
           - "10.100.0.54/24"
         routes:
@@ -110,7 +110,7 @@ nodes:
     networkInterfaces:
       - deviceSelector:
           hardwareAddr: "bc:24:11:e0:17:19"
-        dhcp: false
+        dhcp: true
         addresses:
           - "10.100.0.55/24"
         routes:
