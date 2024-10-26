@@ -1,0 +1,7 @@
+home-kubernetes-talos-control-1.yaml
+home-kubernetes-talos-control-2.yaml
+home-kubernetes-talos-control-3.yaml
+home-kubernetes-talos-node-gpu-1.yaml
+home-kubernetes-talos-node-large-1.yaml
+home-kubernetes-talos-node-large-2.yaml
+talosconfig

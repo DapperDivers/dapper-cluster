@@ -75,7 +75,7 @@ nodes:
   - hostname: "talos-node-gpu-1"
     ipAddress: "10.100.0.53"
     installDisk: "/dev/vda"
-    talosImageURL: factory.talos.dev/installer/3b8fcce903606dc88799fa424dab35f92a7acfe4d3999eb45507791b69dd8384
+    talosImageURL: factory.talos.dev/installer/990731763242a6b3cf735e49d0f550ce4068b4d0e7f4dfbb49a31799b698877e
     controlPlane: false
     networkInterfaces:
       - deviceSelector:
