@@ -3,7 +3,7 @@
 apiVersion: postgresql.cnpg.io/v1
 kind: Cluster
 metadata:
-  name: postgres16
+  name: postgres16-v6
 spec:
   instances: 3
   imageName: ghcr.io/cloudnative-pg/postgresql:16.4-51
