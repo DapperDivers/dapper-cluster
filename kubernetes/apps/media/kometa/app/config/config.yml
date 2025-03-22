@@ -210,7 +210,7 @@ settings:
   run_again_delay: 2
   missing_only_released: false
   missing_path: config/missing
-  custom_repo: https://github.com/h3mmy/bloopysphere/tree/main/cluster/apps/media/plex-meta-manager/app/custom/
+  custom_repo: https://github.com/DapperDivers/dapper-cluster/tree/main/kubernetes/apps/media/kometa/app/custom
   only_filter_missing: false
   show_unmanaged: false
   show_filtered: false
