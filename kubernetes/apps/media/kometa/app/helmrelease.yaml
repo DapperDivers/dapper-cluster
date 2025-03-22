@@ -34,7 +34,7 @@ spec:
         cronjob:
           schedule: "@daily"
           timeZone: &timeZone ${TIME_ZONE}
-          concurrencyPolicy: Allow
+          concurrencyPolicy: Forbid
           successfulJobsHistory: 1
           failedJobsHistory: 1
         containers:
