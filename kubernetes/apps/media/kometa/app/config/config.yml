@@ -8,7 +8,6 @@ libraries: # This is called out once within the config.yml file
       - overlays
     collection_files:
       - repo: Movies.yml
-      - repo: People.yml
       - pmm: basic
       - pmm: imdb
     overlay_files:
@@ -52,7 +51,6 @@ libraries: # This is called out once within the config.yml file
       - overlays
     collection_files:
       - repo: Movies.yml
-      - repo: People.yml
       - pmm: basic
       - pmm: imdb
     overlay_files:
@@ -96,7 +94,6 @@ libraries: # This is called out once within the config.yml file
       - overlays
     collection_files:
       - repo: TV Shows.yml
-      - repo: People.yml
       - default: cannes
       - default: basic
       - default: imdb
@@ -147,7 +144,6 @@ libraries: # This is called out once within the config.yml file
       - overlays
     collection_files:
       - repo: TV Shows.yml
-      - repo: People.yml
       - default: cannes
       - default: basic
       - default: imdb
