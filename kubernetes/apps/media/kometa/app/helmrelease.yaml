@@ -48,9 +48,12 @@ spec:
             args:
               - |
                 python3 kometa.py --run --read-only-config --run-libraries "4k-Movies";
-                python3 kometa.py --run --read-only-config --run-libraries "Movies";
-                python3 kometa.py --run --read-only-config --run-libraries "4k-TV Shows";
-                python3 kometa.py --run --read-only-config --run-libraries "TV Shows";
+            #args:
+            #  - |
+            #    python3 kometa.py --run --read-only-config --run-libraries "4k-Movies";
+            #    python3 kometa.py --run --read-only-config --run-libraries "Movies";
+            #    python3 kometa.py --run --read-only-config --run-libraries "4k-TV Shows";
+            #    python3 kometa.py --run --read-only-config --run-libraries "TV Shows";
             env:
               TZ: *timeZone
             envFrom:
