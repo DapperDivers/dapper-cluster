@@ -80,6 +80,8 @@ spec:
     persistence:
       config:
         existingClaim: *app
+        globalMounts:
+          - path: /config/assets
       config-file:
         type: configMap
         name: kometa-configmap
