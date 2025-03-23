@@ -257,7 +257,7 @@ mdblist:
 trakt:
   client_id: <<TRAKT_CLIENT_ID>>
   client_secret: <<TRAKT_CLIENT_SECRET>>
-  pin: <<TRAKT_PIN>>
+  pin: 9932e45b
 
 # notifiarr:
 #   API_KEY: <<NOTIFIARR_API_KEY>>
