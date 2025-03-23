@@ -257,7 +257,13 @@ mdblist:
 trakt:
   client_id: <<TRAKT_CLIENT_ID>>
   client_secret: <<TRAKT_CLIENT_SECRET>>
-  pin: 9932e45b
-
+  authorization:
+    access_token: <<TRAKT_ACCESS_TOKEN>>
+    token_type: Bearer
+    expires_in: <<TRAKT_EXPIRES_IN>>
+    refresh_token: <<TRAKT_REFRESH_TOKEN>>
+    scope: public
+    created_at: <<TRAKT_CREATED_AT>>
+  pin:
 # notifiarr:
 #   API_KEY: <<NOTIFIARR_API_KEY>>
