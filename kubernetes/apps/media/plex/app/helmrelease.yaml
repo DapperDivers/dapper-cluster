@@ -40,8 +40,8 @@ spec:
         containers:
           app:
             image:
-              repository: ghcr.io/onedr0p/plex
-              tag: 1.41.5.9522-a96edc606@sha256:98a2883445f4901ec816b8dc4d684f94b4a6a21663cf6bde218f274a8c4ef289
+              repository: ghcr.io/home-operations/plex
+              tag: 1.41.5.9522@sha256:cb0310eb53e8ff6e51be2869b6de0425f649e631aa329e6ccf0c72ba580a8aa3
             env:
               TZ: ${TIME_ZONE}
               PLEX_LAN_NETWORKS: 192.168.1.0/24,10.100.0.0/24,10.69.0.0/16
@@ -145,7 +145,7 @@ spec:
       config:
         existingClaim: plex
         globalMounts:
-           - path: /config/Library/Application Support/Plex Media Server
+          - path: /config/Library/Application Support/Plex Media Server
       # Separate PVC for cache to avoid backing up cache files
       cache:
         existingClaim: plex-cache
