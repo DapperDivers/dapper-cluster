@@ -77,8 +77,8 @@ spec:
         defaultMode: 0660
         name: posterizarr-configmap
         globalMounts:
-        - path: /app/config/config.json
-          subPath: config.json
+          - path: /app/config/config.json
+            subPath: config.json
       assets:
         existingClaim: plex-posters
         globalMounts:
