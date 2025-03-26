@@ -74,7 +74,7 @@ spec:
           - path: /app/config
       config-file:
         type: configMap
-        defaultMode: 432
+        defaultMode: "0660"
         name: posterizarr-configmap
         globalMounts:
         - path: /app/config/config.json
