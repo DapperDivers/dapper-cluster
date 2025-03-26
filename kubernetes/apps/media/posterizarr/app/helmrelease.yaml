@@ -65,6 +65,8 @@ spec:
     persistence:
       config:
         existingClaim: *app
+        globalMounts:
+          - path: /app/config
       config-file:
         type: configMap
         name: posterizarr-configmap
