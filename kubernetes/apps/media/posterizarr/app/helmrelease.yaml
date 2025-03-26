@@ -37,7 +37,7 @@ spec:
           app:
             image:
               repository: ghcr.io/dapperdivers/posterizarr
-              tag: v1.9.34@sha256:0b56dcb50e8a2d5721e0360852c0f4a52a5eb0b717d6b855adf7bff16bb00e6c
+              tag: v1.9.34@sha256:63d104caf157c13a7bf54d55891371cd20290b2e638f0b2dbafec65fe8926aef
             env:
               TZ: *timezone
             envFrom:
