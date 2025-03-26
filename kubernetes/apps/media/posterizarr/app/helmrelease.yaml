@@ -40,11 +40,6 @@ spec:
               tag: v1.9.34@sha256:63d104caf157c13a7bf54d55891371cd20290b2e638f0b2dbafec65fe8926aef
             env:
               TZ: *timezone
-            command:
-              - "sh"
-              - "-c"
-            args:
-              - "tail -f /dev/null"
             envFrom:
             - secretRef:
                 name: posterizarr-secret
