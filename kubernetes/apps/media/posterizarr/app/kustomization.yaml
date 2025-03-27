@@ -8,6 +8,6 @@ resources:
 configMapGenerator:
   - name: posterizarr-configmap
     files:
-      - ./config/config.json
+      - ./config/config.json.template
 generatorOptions:
   disableNameSuffixHash: true
